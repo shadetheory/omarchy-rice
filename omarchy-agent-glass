@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# omarchy:summary=Launch agent glass prompt dialog
+# omarchy:args=[]
+# omarchy:examples=omarchy agent glass
+
+# Launch the glass prompt dialog - a glass-style UI for agent interaction
+
+set -euo pipefail
+
+# Use omarchy-shell to summon the glass prompt panel
+if [[ -n ${OMARCHY_PATH:-} ]]; then
+  omarchy-shell shell summon omarchy.agent-glass "{}"
+else
+  echo "OMARCHY_PATH is not set - shell not available" >&2
+  exit 1
+fi

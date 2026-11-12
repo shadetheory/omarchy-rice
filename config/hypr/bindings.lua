@@ -22,7 +22,7 @@ o.bind("SUPER + SHIFT + I", "iMessage", { launch = "/home/jordan/.local/bin/blue
 -- Pause/resume local models (Ollama stays up). Does not touch Grok.
 o.bind("SUPER + SHIFT + CTRL + O", "Toggle local AI", "/home/jordan/.local/bin/local-ai toggle")
 
--- GitHub org glance (jordanpartridge, the-shit, conduit-ui, synapse-sentinel).
+-- GitHub org glance (shadetheory, the-shit, conduit-ui, synapse-sentinel).
 o.bind("SUPER + SHIFT + G", "GitHub orgs", "omarchy-shell shell toggle jordan.github-orgs")
 
 -- Omarchy root menu (Start cabinet is off). Super+Space is the same door.

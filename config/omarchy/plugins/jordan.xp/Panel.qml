@@ -67,7 +67,7 @@ Panel {
     { label: "Terminal", hint: "foot", action: "terminal" },
     { label: "Browser", hint: "Chromium", action: "browser" },
     { label: "Files", hint: "Nautilus", action: "files" },
-    { label: "GitHub", hint: "jordanpartridge", action: "url:https://github.com/jordanpartridge" },
+    { label: "GitHub", hint: "shadetheory", action: "url:https://github.com/shadetheory" },
     { label: "Grok", hint: "Build TUI", action: "grok" },
     { label: "Music", hint: "the-shit/music", action: "music" }
   ]
@@ -80,7 +80,7 @@ Panel {
     { label: "Clock", hint: "desktop gadget", action: "clock" }
   ]
   readonly property var orgItems: [
-    { label: "jordanpartridge", hint: "personal", icon: "jordanpartridge", action: "url:https://github.com/jordanpartridge" },
+    { label: "shadetheory", hint: "personal", icon: "shadetheory", action: "url:https://github.com/shadetheory" },
     { label: "the-shit", hint: "If shit ain't tight…", icon: "the-shit", action: "url:https://github.com/the-shit" },
     { label: "conduit-ui", hint: "Integrate all the things", icon: "conduit-ui", action: "url:https://github.com/conduit-ui" },
     { label: "synapse-sentinel", hint: "Lexi + Forge", icon: "synapse-sentinel", action: "url:https://github.com/synapse-sentinel" },
@@ -91,7 +91,7 @@ Panel {
     { label: "Thor", hint: "this box · Omarchy", action: "thor" },
     { label: "Loki", hint: "ssh loki · Pop!_OS", action: "ssh:loki" },
     { label: "Odin", hint: "ssh odin · homelab", action: "ssh:odin" },
-    { label: "Asgard", hint: "jordanpartridge/Asgard", action: "url:https://github.com/jordanpartridge/Asgard" }
+    { label: "Asgard", hint: "shadetheory/Asgard", action: "url:https://github.com/shadetheory/Asgard" }
   ]
   readonly property var gameItems: [
     { label: "ELDEN RING", hint: "Steam", action: "steam:1245620" },
@@ -104,7 +104,7 @@ Panel {
     { label: "Biker, not cyclist", hint: "dirt, not lycra", action: "url:https://www.jordanpartridge.us" },
     { label: "Music", hint: "the-shit/music", action: "music" },
     { label: "Homelab", hint: "self-hosted · Lexi", action: "url:https://github.com/synapse-sentinel" },
-    { label: "LEGO + kids", hint: "site-words-studio", action: "url:https://github.com/jordanpartridge/site-words-studio" },
+    { label: "LEGO + kids", hint: "site-words-studio", action: "url:https://github.com/shadetheory/site-words-studio" },
     { label: "Laravel", hint: "terminal maximalist", action: "url:https://github.com/conduit-ui" }
   ]
 

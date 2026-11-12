@@ -32,7 +32,7 @@
     "icon": "󰊤",
     "label": "GitHub orgs",
     "action": "omarchy-shell shell toggle jordan.github-orgs",
-    "description": "Glance at jordanpartridge, the-shit, conduit-ui, synapse-sentinel"
+    "description": "Glance at shadetheory, the-shit, conduit-ui, synapse-sentinel"
   },
 
   // Music cabinet. Super+M summons this submenu (not the premium TUI).

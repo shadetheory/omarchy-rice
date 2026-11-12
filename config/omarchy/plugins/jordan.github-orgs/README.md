@@ -2,7 +2,7 @@
 
 Bar widget that glances at:
 
-- `jordanpartridge` (user)
+- `shadetheory` (user)
 - `the-shit`
 - `conduit-ui`
 - `synapse-sentinel`

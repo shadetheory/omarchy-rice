@@ -206,7 +206,7 @@ while IFS=: read -r kind login short; do
   fi
   owners_json=$(jq -c --argjson owner "$owner_json" '. + [$owner]' <<<"$owners_json")
 done <<'OWNERS'
-user:jordanpartridge:JP
+user:shadetheory:JP
 org:the-shit:shit
 org:conduit-ui:conduit
 org:synapse-sentinel:synapse

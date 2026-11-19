@@ -4,7 +4,7 @@ Thor's [Omarchy](https://omarchy.org/) overlay. Jordan OS is the house on the gl
 
 Live files stay in `~/.config` (Omarchy reads them there). This repo is the git home.
 
-The older [`dotfiles`](https://github.com/jordanpartridge/dotfiles) tree is chezmoi for Nobara/macOS. Do not mix the two.
+The older [`dotfiles`](https://github.com/shadetheory/dotfiles) tree is chezmoi for Nobara/macOS. Do not mix the two.
 
 ![Jordan OS](config/omarchy/themes/jordan-os/preview.png)
 
@@ -27,7 +27,7 @@ Not vendored: [BlueFerry](https://github.com/erikwb/omarchy-blueferry) (clone it
 On an Omarchy box:
 
 ```bash
-git clone https://github.com/jordanpartridge/omarchy-rice.git
+git clone https://github.com/shadetheory/omarchy-rice.git
 cd omarchy-rice
 ./scripts/install.sh          # skip Thor's dual-LG monitors.lua
 ./scripts/install.sh --thor   # this machine is Thor

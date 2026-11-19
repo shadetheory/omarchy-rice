@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Jordan Partridge",
   "license": "MIT",
-  "description": "Glance at jordanpartridge, the-shit, conduit-ui, and synapse-sentinel: counts, night-ready, and high-value PRs and issues.",
+  "description": "Glance at shadetheory, the-shit, conduit-ui, and synapse-sentinel: counts, night-ready, and high-value PRs and issues.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "Panel.qml"
